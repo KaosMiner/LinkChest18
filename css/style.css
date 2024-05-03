@@ -1,10 +1,10 @@
 body {
-  overflow: hidden;
+  background: #33302e;
   margin: 0;
 }
   
 .desktop-1 {
-  background: #33302e;
+  
   height: 1079px;
   position: relative;
   overflow: hidden;
@@ -231,33 +231,34 @@ body {
   height: 36px;
 }
   
-.design {
+.list-heading {
   color: #ffffff;
   text-align: center;
   font-family: "Inter-Bold", sans-serif;
   font-size: 64px;
   font-weight: 700;
   text-decoration: underline;
-  position: absolute;
-  left: 128px;
-  top: 134px;
+  text-align: start;
+  margin-bottom: -20px;
 }
-.website {
+
+.Linklist {
+  text-align: start;
+  margin-bottom: 10px;
+}
+.listcontainer {
+  display: flex;
+  flex-direction: column;
   color: #ffffff;
   text-align: center;
   font-family: "Inter-Bold", sans-serif;
   font-size: 40px;
   font-weight: 700;
   position: absolute;
-  left: 128px;
-  top: 187px;
+  left: 8%;
+  top: 20%;
   transition: transform 0.1s ease-in-out;
 }
-.Linklist {
-  text-align: start;
-  margin-bottom: 10px;
-}
-  
 a {
   color: white;
   text-decoration: none;

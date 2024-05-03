@@ -1,11 +1,15 @@
 body {
-  background: #33302e;
-  
+  overflow: hidden;
   margin: 0;
 }
-
-
-
+  
+.desktop-1 {
+  background: #33302e;
+  height: 1079px;
+  position: relative;
+  overflow: hidden;
+}
+  
 .discover-links {
   background-color: transparent;
   border: none;
@@ -20,7 +24,7 @@ body {
   width: 239px;
   height: 36px;
 }
-
+  
 .frame-1 {
   background-color: transparent;
   border: none;
@@ -37,7 +41,7 @@ body {
   left: 1791px;
   top: 28px;
 }
-
+  
 .frame-2 {
   background: #fb7418;
   border: none;
@@ -56,7 +60,7 @@ body {
   transition: transform 0.1s ease-in-out;
   transition: border-radius 0.1s ease-in-out;
 }
-
+  
 .help {
   background-color: transparent;
   border: none;
@@ -71,20 +75,22 @@ body {
   width: 73px;
   height: 29px;
 }
-
+  
 .home {
   background-color: transparent;
   border: none;
   color: #ffffff;
-  text-align: center;
+	text-align: center;
   font-family: "Inter-Bold", sans-serif;
   font-size: 30px;
   font-weight: 700;
   position: absolute;
-  left: 57%;
-  top: 30%;
+  left: 1067px;
+  top: 31px;
+  width: 118px;
+  height: 29px;
 }
-
+  
 .image-1 {
   border-radius: 26px;
   border-style: solid;
@@ -97,7 +103,7 @@ body {
   top: 256px;
   object-fit: cover;
 }
-
+  
 .link-chest {
   color: #ffffff;
   text-align: center;
@@ -105,23 +111,24 @@ body {
   font-size: 48px;
   font-weight: 800;
   position: absolute;
-  left: 6%;
-  top: 15%;
-  width: 14%;
+  left: 115px;
+  top: 20px;
+  width: 266px;
+  height: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-
+  
 .logo {
-  width: 5%;
-  height: 100%;
+  width: 102px;
+  height: 102px;
   position: absolute;
-  left: 0.5%;
-  top: -3%;
+  left: 11px;
+  top: -4px;
   object-fit: cover;
 }
-
+  
 .log-in {
   color: #ffffff;
   text-align: center;
@@ -130,7 +137,7 @@ body {
   font-weight: 700;
   position: relative;
 }
-
+  
 .more-info {
   color: #ffffff;
   text-align: left;
@@ -139,7 +146,7 @@ body {
   font-weight: 600;
   position: relative;
 }
-
+  
 .rectangle-2 {
   background: #ffffff;
   width: 3px;
@@ -148,16 +155,16 @@ body {
   left: 1394px;
   top: 15px;
 }
-
+  
 .rectangle-4 {
   background: #ff9750;
   width: 100%;
-  height: 11%;
+  height: 98px;
   position: absolute;
   left: 0px;
   top: 0px;
 }
-
+  
 .rectangle-5 {
   background: #ffffff;
   width: 3px;
@@ -166,16 +173,16 @@ body {
   left: 1668px;
   top: 15px;
 }
-
+  
 .rectangle-6 {
   background: #ffffff;
-  width: 0.15%;
-  height: 8%;
+  width: 3px;
+  height: 70px;
   position: absolute;
-  left: 63%;
-  top: 1.5%;
+  left: 1197px;
+  top: 15px;
 }
-
+  
 .rectangle-7 {
   background: #ffffff;
   width: 5px;
@@ -184,7 +191,7 @@ body {
   left: 1780px;
   top: 15px;
 }
-
+  
 .text1 {
   color: #ffffff;
   text-align: left;
@@ -197,7 +204,7 @@ body {
   width: 455px;
   height: 245px;
 }
-
+  
 .text2 {
   color: #ffffff;
   text-align: left;
@@ -208,7 +215,7 @@ body {
   left: 129px;
   top: 539px;
 }
-
+  
 .your-links {
   background-color: transparent;
   border: none;
@@ -223,35 +230,34 @@ body {
   width: 174px;
   height: 36px;
 }
-
-.list-heading {
+  
+.design {
   color: #ffffff;
   text-align: center;
   font-family: "Inter-Bold", sans-serif;
   font-size: 64px;
   font-weight: 700;
   text-decoration: underline;
-  text-align: start;
-  margin-bottom: -20px;
+  position: absolute;
+  left: 128px;
+  top: 134px;
 }
-
-.Linklist {
-  text-align: start;
-  margin-bottom: 10px;
-}
-.listcontainer {
-  display: flex;
-  flex-direction: column;
+.website {
   color: #ffffff;
   text-align: center;
   font-family: "Inter-Bold", sans-serif;
   font-size: 40px;
   font-weight: 700;
   position: absolute;
-  left: 8%;
-  top: 20%;
+  left: 128px;
+  top: 187px;
   transition: transform 0.1s ease-in-out;
 }
+.Linklist {
+  text-align: start;
+  margin-bottom: 10px;
+}
+  
 a {
   color: white;
   text-decoration: none;

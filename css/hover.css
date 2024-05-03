@@ -1,0 +1,35 @@
+.frame-2:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    border: 2px solid white;
+    border-radius: 40px;
+}
+.home:hover {
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.help:hover {
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.log-in:hover {
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.discover-links:hover {
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.your-links:hover {
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+a:hover {
+    color: #ff9750;
+}

@@ -263,3 +263,46 @@ a {
   color: white;
   text-decoration: none;
 }
+
+.CreateButton {
+  background-color:#ff9750;
+  border-radius: 10px;
+  border:none;
+  color: #ffffff;
+  text-align: center;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  position: absolute;
+  left: 8%;
+  top: 12%;
+  transition: transform 0.1s ease-in-out;
+}
+.CreateChest {
+  background-color:#585858;
+  border-radius: 10px;
+  border:none;
+  color: #ffffff;
+  text-align: center;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  position: absolute;
+  left: 27%;
+  top: 12%;
+  transition: transform 0.1s ease-in-out;
+}
+.CreateChest2 {
+  background-color:#585858;
+  border-radius: 10px;
+  border:none;
+  color: #ffffff;
+  text-align: center;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  position: absolute;
+  left: 55%;
+  top: 12%;
+  transition: transform 0.1s ease-in-out;
+}

@@ -8,33 +8,29 @@
     <link rel="stylesheet" href="..//css/hover.css">
 </head>
 <body>
-    <div class="desktop-1">
-        <img class="image-1" src="../img/Neues Projekt (1) (2).png" />
-        <div class="text1">
-          Create easy and free a Link Chest!
-        </div>
-        <div class="text2">
-          Start with your free LinkChest today!
-        </div>
-        <button class="frame-2">
-          <div class="more-info">More Info</div>
-        </button>
-        <div class="rectangle-4"></div>
-        <button class="your-links" onclick="location.href='../html/your-links.html'">Your Links</button>
-        <button class="discover-links" onclick="location.href='../html/discover.html'">Discover Links</button>
-        <img class="logo" src="../img/Neues Projekt (1).png" />
-        <button class="home" onclick="location.href='../html/index.html'">Home</button>
-        <div class="link-chest">LinkChest</div>
-        <button class="help">Help</button>
-        <button class="frame-1">
-          <div class="log-in">Log In</div>
-        </button>
-        <div class="rectangle-2"></div>
-        <div class="rectangle-6"></div>
-        <div class="rectangle-5"></div>
-        <div class="rectangle-7"></div>
+    <button class="CreateButton" onclick="CreateChest()">Create Link Chest</button>
+    <input id = "Name" class = "CreateChest" type="text" placeholder="Website Name">
+    <input id ="Link" class = "CreateChest2" type="text"placeholder="Website Link">
+    <div class="listcontainer">
+        
       </div>
-      
-      
-</body>
+          <div class="rectangle-4">
+            <button class="your-links" onclick="location.href='../html/yourlinks.html'">Your Links</button>
+            <button class="discover-links" onclick="location.href='../html/discover.html'">Discover Links</button>
+            <img class="logo" src="../img/Neues Projekt (1).png" />
+            <button class="home" onclick="location.href='../html/index.html'">Home</button>
+            <div class="link-chest">LinkChest</div>
+            <button class="help">Help</button>
+            <button class="frame-1">
+              <div class="log-in">Log In</div>
+            </button>
+          </div>
+          
+          <div class="rectangle-2"></div>
+          <div class="rectangle-6"></div>
+          <div class="rectangle-5"></div>
+          <div class="rectangle-7"></div>
+
+          <script src="../js/script.js"></script>
+  </body>
 </html>

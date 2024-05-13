@@ -33,3 +33,11 @@
 a:hover {
     color: #ff9750;
 }
+
+.CreateButton:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    border: 2px solid white;
+    border-radius: 40px;
+}
+
